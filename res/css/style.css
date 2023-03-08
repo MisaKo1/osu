@@ -1,0 +1,64 @@
+body{
+    overflow: hidden;
+    user-select: none;
+    background-image: url(../img/twitch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#circle {
+    position:relative;
+    display:block;
+    float:left;
+    border: 3px solid white;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    background-image: url(../img/pepe.jpg);
+}
+#scoreboard {
+    color:gold;
+    font-size: 40px;
+    float:right;
+    margin-top: 0;
+}
+#place {
+    border: 1 px solid white;
+    width:120vh;
+    height:90vh;
+    margin: auto;
+    margin-top: 4%;
+}
+#healthbar {
+    width:300px;
+    height:10px;
+    padding:5px;
+    border: 1px solid black;
+}
+#bar {
+    background: red;
+    width:300px;
+    height:10px;
+}
+
+#play {
+    border: 1px solid black;
+    position: fixed;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-right: -100px;
+    color: white;
+  }
+
+#dance {
+    position:absolute;
+    top:300px;
+
+}
