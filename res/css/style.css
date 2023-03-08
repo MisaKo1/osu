@@ -1,21 +1,25 @@
 body{
     overflow: hidden;
-    user-select: none;
     background-image: url(../img/twitch.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;
 }
 
 #circle {
     position:relative;
     display:block;
     float:left;
-    border: 3px solid white;
+    border: 3px solid purple;
     border-radius: 50%;
     width:100px;
     height:100px;
     cursor: pointer;
     background-image: url(../img/pepe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #scoreboard {
     color:gold;
@@ -60,7 +64,33 @@ body{
 
 #dance {
     position:absolute;
-    top:300px;
-    left:70px;
+    top:50%;
+    left:0px;
+    height:400px;
+    width:400px;
+    display: none;
+}
 
+#dance2 {
+    position:absolute;
+    top:50%;
+    right:0px;
+    width:400px;
+    height:400px;
+    display:none;
+}
+
+#result {
+    display:none;
+    position:absolute;
+    top:30%;
+    left:50%;
+    width:500px;
+    height:200px;
+    border:1px solid black;
+    background-color:white;
+}
+
+#points {
+    clear: both;
 }
